@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* A cor de fundo original é #f3f4f6, mas o body no HTML tem bg-gray-100 */
+    background-color: #f3f4f6;
+}
+.error-border {
+    border-color: #ef4444 !important;
+}
+/* Style for table rows to show pointer */
+tr {
+    cursor: pointer;
+}
+/* Make sure modals fit on smaller screens */
+.modal-content {
+    width: 95%;
+    max-width: 48rem; /* Equivalent to max-w-2xl */
+}
+@media (min-width: 640px) {
+    .modal-content {
+        width: 100%;
+    }
+}
